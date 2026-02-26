@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>FGomes Store</title>
+</head>
+
+<body>
+    <header>
+
+        <div class="logo">FGomes Store</div>
+        <nav>
+
+            <ul>
+                <li>Home</li>
+                <li>Produtos</li>
+                <li>Contato</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="tech-circles">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+
+        <div class="list">
+            <div class="item active">
+                <div class="product-img">
+                    <img src="./img/ps5.png" alt="Play Station 5">
+                </div>
+
+                <div class="content">
+                    <p class="product-tag">O Mais Popular</p>
+                    <p class="product-name">PlayStation 5</p>
+                    <p class="description">O PlayStation 5 chegou ao mercado em novembro de 2020, marcando o início de
+                        uma nova era focada em velocidade e imersão. Com um design futurista e a promessa de
+                        revolucionar o carregamento de dados, seu lançamento foi um marco tecnológico que definiu os
+                        novos padrões de desempenho para a nona geração de consoles.</p>
+                    <button class="btn">Saiba Mais</button>
+                </div>
+            </div>
+
+
+            <div class="item">
+                <div class="product-img">
+                    <img src="./img/xbs.png" alt="Xbox Series">
+                </div>
+
+                <div class="content">
+                    <p class="product-tag">O Melhor Custo-Benefício</p>
+                    <p class="product-name">Xbox Series</p>
+                    <p class="description">O Xbox Series X e S foram lançados globalmente em 10 de novembro de 2020,
+                        focando em "dar poder aos seus sonhos" através da Xbox Velocity Architecture. Enquanto o Series
+                        X se consolidou como o console mais poderoso do mundo com foco em 4K nativo, o Series S trouxe
+                        uma alternativa compacta e totalmente digital, democratizando o acesso à nova geração.</p>
+                    <button class="btn">Saiba Mais</button>
+                </div>
+            </div>
+
+
+            <div class="item">
+                <div class="product-img">
+                    <img src="./img/macbook.png" alt="Macbook Air">
+                </div>
+
+                <div class="content">
+                    <p class="product-tag">O Melhor Desempenho</p>
+                    <p class="product-name">Macbook Air</p>
+                    <p class="description">O MacBook Air com a chegada dos chips da linha M1 e sucessores redefiniu o
+                        conceito de notebooks ultraportáteis, abandonando de vez os processadores Intel em favor da
+                        arquitetura própria da Apple. Essa transição marcou um salto histórico em eficiência, permitindo
+                        um design extremamente fino sem ventoinhas (totalmente silencioso) e uma bateria que dura o dia
+                        inteiro com folga. </p>
+                    <button class="btn">Saiba Mais</button>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="arrows">
+            <button class="arrow-btn" id="prev">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+                    <path
+                        d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z" />
+                </svg>
+            </button>
+            <button class="arrow-btn" id="next">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                    <path
+                        d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                </svg>
+            </button>
+
+        </div>
+
+        <div class="indicator">
+            <div class="numbers">01</div>
+            <div class="dots">
+                <div class="dot active"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+
+            </div>
+
+
+        </div>
+
+    </main>
+</body>
+<script src="./scripts.js"></script>
+
+</html>
